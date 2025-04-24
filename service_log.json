@@ -1,0 +1,36 @@
+{
+  "service_log": {
+    "installation_id": "",
+    "user_ip": "",
+    "event": "access.digitalwallet.v1_private_balance",
+    "timestamp": "2025-04-21T13:33:08.615920+03:30",
+    "access_ALKIIIIIIIIIII": {
+      "request": {
+        "headers": {
+          "GOGOLI": {
+            "Shangool": "name"
+          },
+          "x_correlation_id": "cb9402f156144fbd8844273ebc79a31b",
+          "x_forwarded_for": ""
+        },
+        "method": "GET",
+        "url": "/v1/private_balance"
+      },
+      "response_DOLAKY": {
+        "headers": {
+          "x_correlation_id": "cb9402f156144fbd8844273ebc79a31b"
+        },
+        "status_code": 200
+      },
+      "metrics": {
+        "process_time": 0.3
+      }
+    },
+    "level": "info",
+    "service": "digitalwallet",
+    "log_source": "systemlog",
+    "worker_id": "74c3d5534c184bb48d19a22c2798642e",
+    "x_correlation_id": "cb9402f156144fbd8844273ebc79a31b",
+    "phone_number": ""
+  }
+}
